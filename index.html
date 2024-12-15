@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
 
-    <link rel="icon" type="icon" href="UlisseUlissi.png">
+    <link rel="icon" type="icon" href="img/UlisseUlissi.png">
 
     <title>Ed. Civica Scienze</title>
 </head>
@@ -29,10 +29,10 @@
         </div>
 
         <div class="four-img-container">
-            <img src="first-img.png" alt="" class="four-img" id="left-img">
-            <img src="fourth-img.png" alt="" class="four-img" id="back-img">
-            <img src="second-img.png" alt="" class="four-img" id="front-img">
-            <img src="third-img.png" alt="" class="four-img" id="right-img">
+            <img src="img/first-img.png" alt="" class="four-img" id="left-img">
+            <img src="img/fourth-img.png" alt="" class="four-img" id="back-img">
+            <img src="img/second-img.png" alt="" class="four-img" id="front-img">
+            <img src="img/third-img.png" alt="" class="four-img" id="right-img">
         </div>
 
         <div id="credits" class="border">
@@ -56,18 +56,18 @@
             <button id="DNA-button" class="DNA1" onclick="sparisce('img1')"></button>
             <button id="DNA-button" class="DNA2" onclick="sparisce('img2')"></button>
             
-            <img src="DNA.png" alt="" style="float: left;max-width: 200px;">
+            <img src="img/DNA.png" alt="" style="float: left;max-width: 200px;">
         </div>
         <div style="margin: auto;display: flex;">
             <div>
-                <img src="Struttura.png" alt="" style="margin-bottom: 50px;margin-right: 200px;visibility: hidden;" id="img1">
-                <img src="Collegamenti.png" alt="" style="margin-right: 120px;margin-top: 120px;visibility: hidden;" id="img2">
+                <img src="img/Struttura.png" alt="" style="margin-bottom: 50px;margin-right: 200px;visibility: hidden;" id="img1">
+                <img src="img/Collegamenti.png" alt="" style="margin-right: 120px;margin-top: 120px;visibility: hidden;" id="img2">
             </div>
-            <img src="Esperimenti.png" alt="" style="height: 401px;width: 366px;margin-right: 100px;margin-top: 60px;visibility: hidden;"  id="img3">
+            <img src="img/Esperimenti.png" alt="" style="height: 401px;width: 366px;margin-right: 100px;margin-top: 60px;visibility: hidden;"  id="img3">
         </div>
 
         <div>
-            <img src="DNA.png" alt="" style="float: right;max-width: 200px;rotate: 180deg;">
+            <img src="img/DNA.png" alt="" style="float: right;max-width: 200px;rotate: 180deg;">
             
             <button id="DNA-button" class="DNA3" onclick="sparisce('img3')"></button>
         </div>
@@ -75,21 +75,21 @@
     </div>
 
     <h1 id="title" style="font-size: 70px;margin-top: 100px;">Replicazione DNA</h1>
-    <img src="Replicazione_DNA.png" alt="" style="width: 1100px;height: 500px;">
+    <img src="img/Replicazione_DNA.png" alt="" style="width: 1100px;height: 500px;">
 
     <h1 id="title" style="font-size: 70px;"> e ora associa:</h1>
     <div id="DNA-game" style="display: flex;margin-top: 50px;">
 
         <div id="starter-box" ondrop="drop(event, this.id)" ondragover="dragOver(event)">
             <div id="victory2" style="margin: auto;display: none;z-index: 40;background-color: rgb(0, 255, 0, 0.5);">Hai vinto!!!</div>
-            <img id="adenina" src="Adenina.png" alt="" id="element-drag1" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
-            <img id="citosina" src="Citosina.png" alt="" id="element-drag2" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
-            <img id="guanina" src="Guanina.png" alt="" id="element-drag3" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
-            <img id="timina" src="Timina.png" alt="" id="element-drag4" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
+            <img id="adenina" src="img/Adenina.png" alt="" id="element-drag1" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
+            <img id="citosina" src="img/Citosina.png" alt="" id="element-drag2" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
+            <img id="guanina" src="img/Guanina.png" alt="" id="element-drag3" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
+            <img id="timina" src="img/Timina.png" alt="" id="element-drag4" draggable="true" style="width: 80px; height: 60px;" ondragstart=dragStart(event)>
         </div>
 
         <button id="button-DNA" onclick="controlla()">Controlla</button>
-        <img id="img-DNA" src="Alonso.png" alt="" style="display: none;width: 300px;height: 300px;">
+        <img id="img-DNA" src="img/Alonso.png" alt="" style="display: none;width: 300px;height: 300px;">
 
         <div id="finish-box">
         
@@ -410,9 +410,9 @@
     <h1 id="title" style="font-size: 60px;margin-top: 100px;">sconfiggi il CoronaVirus con il vaccino</h1>
     <div id="gioco-virus" style="display: flex;margin-bottom: 100px;">
         <div id="container">
-            <img src="covid.png" alt="" id="square">
+            <img src="img/covid.png" alt="" id="square">
             <div id="victory-3" style="display: flex;background-color: rgb(0, 255, 0, 0.5);opacity: 0%;">
-                <img id="victory-2" src="Jesus.png" alt="" style="display: none;z-index: 50;float: left;">
+                <img id="victory-2" src="img/Jesus.png" alt="" style="display: none;z-index: 50;float: left;">
                 <div id="victory" style="margin: auto;display: none;z-index: 40;width: 1000px;height: 400px;">Hai sconfitto il CoronaVirus!</div>
             </div>
             
